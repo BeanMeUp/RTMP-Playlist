@@ -119,6 +119,8 @@ File3=/path/to/video3.mp4
 NumberOfEntries=3
 ```
 
+Note: Other playlist types are supported. http://savonet.sourceforge.net/doc-svn/playlist_parsers.html
+
 ## Running Your Stream
 
 Once everything is installed and configured, you now can run your stream. Simply just `cd` to where your liquidsoap configuration file is and run:
