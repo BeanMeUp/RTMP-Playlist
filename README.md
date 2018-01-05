@@ -128,3 +128,12 @@ Once everything is installed and configured, you now can run your stream. Simply
 `liquidsoap liquidsoap.liq`
 
 Note: If you exit your console the stream will end. You may want to do `screen` or similar before you run this command.
+
+## Vagrant
+
+We now have a vagrant box:
+```
+vagrant init fyroc/RTMP-Playlist \
+  --box-version 1
+vagrant up
+```
