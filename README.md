@@ -46,7 +46,7 @@ You can find the installation instructions [in the official nginx-rtmp-module wi
 
 ## Configuring Liquidsoap
 
-There are several different ways you can configure your Liquidsoap file. In this README I am going to show you 2 examples. I will also include these examples in the repo along with others. On your server, create a new file called `liquidsoap.liq` and use one of the configurations below, or in the repo
+There are several different ways you can configure your Liquidsoap file. In this README I am going to show you 2 examples. I will also include these examples in the repo along with others. On your server, create a new file called `liquidsoap.liq` and use one of the configurations below, or in the repo. Make sure you chmod it 777 and also make it exectutable.
 
 ### Facebook Live Configuration
 
@@ -110,10 +110,10 @@ Example:
 
 ```
 [playlist]
-Title3=Untitled
-File3=/path/to/video1.mp4
-Title3=Untitled
-File3=/path/to/video2.mp4
+Title1=Untitled
+File1=/path/to/video1.mp4
+Title2=Untitled
+File2=/path/to/video2.mp4
 Title3=Untitled
 File3=/path/to/video3.mp4
 NumberOfEntries=3
